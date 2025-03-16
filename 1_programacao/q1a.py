@@ -43,10 +43,3 @@ def cifra(texto: str, deslocamento: int) -> str:
         resultado.append(novo_char)  # Adiciona o caractere modificado a lista
     
     return ''.join(resultado)  # Retorna a lista como uma string
-
-# Testes
-# Teste 1: Cifra de César com deslocamento +2
-print(cifra("Y npcqqy c glgkgey by ncpdcgaym", 2))  # Esperado: "A pressa e inimiga da perfeicao"
-
-# Teste 2: Cifra de César com deslocamento -30 (equivalente a deslocamento +22)
-print(cifra("jmpls hi xyvmrkiv, xyvmrkymrls i.", -30))  # Esperado: "filho de turinger, turinguinho e."
